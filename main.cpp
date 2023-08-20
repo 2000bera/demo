@@ -7,7 +7,11 @@ using namespace std;
 // check factorial
 namespace Factorial {
   void getFactorial() {
-    double fact = 5;
+    double fact;
+
+    cout << "Enter a number to it's factorial: ";
+    cin >> fact;
+    
     double factorial = fact;
     double number;
     number = factorial - 1;
